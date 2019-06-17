@@ -127,7 +127,7 @@
 </plugin>
 
 
-<plugin>
+-<plugin>
 
 <groupId>org.jacoco</groupId>
 
@@ -136,15 +136,15 @@
 <version>0.7.7.201606060606</version>
 
 
-<executions>
+-<executions>
 
 
-<execution>
+-<execution>
 
 <id>default-prepare-agent</id>
 
 
-<goals>
+-<goals>
 
 <goal>prepare-agent</goal>
 
@@ -153,14 +153,14 @@
 </execution>
 
 
-<execution>
+-<execution>
 
 <id>default-report</id>
 
 <phase>prepare-package</phase>
 
 
-<goals>
+-<goals>
 
 <goal>report</goal>
 
